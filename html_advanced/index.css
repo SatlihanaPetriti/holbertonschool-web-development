@@ -83,9 +83,27 @@ nav {
     
     box-shadow: 0px 0px 20px 3px #494949;
 }
+/* learn the pros*/
+.learn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.learn h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 140px;
+    font-size: 32px;
+    font-weight: 300;
+    color:#ffffff;
+}
+.learn h4 span {
+    color: #C271FF;
+    font-weight: 700;
+}
 
-
-/* ========== faq =========== */
+/*  faq */
 
 .questions {
     width: 100%;
