@@ -103,9 +103,12 @@ nav {
     font-weight: 700;
 }
 
+
+
+
 /*  faq */
 
-.questions {
+.faq {
     width: 100%;
     height: auto;
     display: flex;
@@ -114,14 +117,15 @@ nav {
     flex-direction: column;
 }
 
-.questions h1 {
+.faq h1 {
     margin-top: 40px;
     font-size: 60px;
     font-weight: 200;
     text-align: center;
 }
 
-.faq {
+/* the main FAQ layout */
+.faq-grid {
     width: 920px;
     height: 707px;
     display: flex;
@@ -129,19 +133,26 @@ nav {
     align-items: center;
 }
 
-.item_faq {
+/* each column */
+.faq-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* each FAQ item */
+.faq-item {
     margin: 80px 100px;
     width: 350px;
     height: 242px;
 }
 
-.item_faq h2 {
+.faq-item h2 {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.item_faq p {
+.faq-item p {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
