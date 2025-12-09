@@ -124,7 +124,6 @@ nav {
     text-align: center;
 }
 
-/* the main FAQ layout */
 .faq-grid {
     width: 920px;
     height: 707px;
@@ -133,13 +132,11 @@ nav {
     align-items: center;
 }
 
-/* each column */
 .faq-column {
     display: flex;
     flex-direction: column;
 }
 
-/* each FAQ item */
 .faq-item {
     margin: 80px 100px;
     width: 350px;
