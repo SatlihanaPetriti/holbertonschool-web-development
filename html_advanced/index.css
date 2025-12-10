@@ -10,8 +10,8 @@ header::before {
     inset: 0;
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
-    background-size: cover; /* or contain */
-    z-index: -1; /* keeps it behind header content */
+    background-size: cover; 
+    z-index: -1; 
     width: 1440px;
     height: 1093px;
 }
