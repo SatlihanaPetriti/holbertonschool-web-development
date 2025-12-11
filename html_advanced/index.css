@@ -10,8 +10,8 @@ header::before {
     inset: 0;
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
-    background-size: cover; /* Use cover for tall images */
-    background-position: center top; /* Align to top center */
+    background-size: cover; 
+    background-position: center top; 
     z-index: -1;
 }
 
@@ -78,7 +78,6 @@ nav {
         
 }
 
-
 .register{
     width:162px;
     height: 44px;
@@ -86,11 +85,11 @@ nav {
     color: #FFFFFF;
     border: none;
     margin: 0 auto;
-    margin-top: 30px;;
+    display: block;
+    margin-top: 30px;
     border-radius: 22px;
     box-shadow: 0px 0px 20px 3px #494949;
     cursor: pointer;
-    margin-right: -30px;
     font-weight: bold;
 }
 
@@ -148,6 +147,7 @@ nav {
 .testimonial {
     width: 100%;
     height: 392px;
+    overflow: hidden;
     background-color: #C271FF;
     display: flex;
     justify-content: center;
