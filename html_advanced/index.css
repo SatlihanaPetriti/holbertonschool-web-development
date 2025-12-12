@@ -416,7 +416,7 @@ nav {
 .content_f .img {
     width: 169px;
     height: 30px;
-    margin-left: -50px;
+    margin-right: 110px;
 }
 
 .media {
@@ -424,7 +424,6 @@ nav {
     height: 30px;
     display: flex;
     justify-content: space-between;
-    margin-right: -15px;
 }
 
 .footer p {
