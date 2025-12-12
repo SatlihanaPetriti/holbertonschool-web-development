@@ -19,9 +19,7 @@ nav {
     width: 80%;
     margin: 0 auto;
     padding-top: 50px;
-    overflow: hidden;
-
-    
+    overflow: hidden;    
 }
 
 .menu-container {
@@ -29,7 +27,6 @@ nav {
     width: 300px;
     float: right;
     
-   
 }
 
 .menu-container>li {
@@ -202,7 +199,7 @@ nav {
 
 .populars h1 {
     font-size: 32px;
-    font-weight: 300;
+    font-weight: bold;
 }
 .populars h1 span{
     font-weight: bold;
